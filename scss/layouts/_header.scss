@@ -71,7 +71,7 @@ header {
         color: $blackish;
     }
     .hero-description {
-        margin-block: 1.5rem 2rem;
+        margin-block: clamp(1.5rem, 0.786rem + 1.488vw, 2.125rem) 2rem;
         font-size: clamp(1rem, 0.857rem + 0.298vw, 1.125rem);
         line-height: 1.625rem;
         font-weight: weight(medium);

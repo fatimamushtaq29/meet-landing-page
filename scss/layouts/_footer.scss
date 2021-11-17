@@ -51,6 +51,7 @@ footer {
             z-index: 1;
             padding: 0 clamp(1.5rem, -2.913rem + 18.83vw, 6.125rem);
             @include mediaQuery(75rem) {
+                margin-block: 0;
                 padding: 0;
                 width: 21.875rem;
                 text-align: left; 
