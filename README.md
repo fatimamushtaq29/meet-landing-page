@@ -25,15 +25,18 @@ Users should be able to:
 
 ### Screenshot
 
-Mobile Screenshot: ![](./screenshot-mobile.jpg)
+Mobile Screenshot: 
+![](./screenshot-mobile.jpg)
 
-Tablet Screenshot: ![](./screenshot-tablet.jpg)
+Tablet Screenshot: 
+![](./screenshot-tablet.jpg)
 
-Desktop Screenshot: ![](./screenshot-desktop.jpg)
+Desktop Screenshot: 
+![](./screenshot-desktop.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/fatimamushtaq29/meet-landing-page](https://github.com/fatimamushtaq29/meet-landing-page)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
