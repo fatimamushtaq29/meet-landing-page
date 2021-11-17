@@ -2,6 +2,7 @@
 
 header {
     @include flexCenter(column);
+    overflow-x: hidden;
     .logo {
         margin-block: 3rem clamp(3.375rem, 2.779rem + 2.545vw, 4rem);
         @include mediaQuery(laptop) {
