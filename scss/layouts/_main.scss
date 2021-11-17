@@ -1,0 +1,66 @@
+@use "../abstracts" as *;
+
+main {
+    margin-bottom: clamp(11rem, 10.046rem + 4.071vw, 12rem);
+    .main-hero {
+        padding: 0 clamp(1.5rem, -2.913rem + 18.83vw, 6.125rem);
+        @include mediaQuery(laptop) {
+            padding: 0 clamp(6.125rem, -19.018rem + 52.381vw, 28.125rem);
+        }
+    }
+    @include mediaQuery(laptop) {
+        margin-bottom: clamp(11.5rem, 12.571rem + -1.191vw, 12rem);
+    }
+}
+
+.image-grid {
+    margin-block: 4rem clamp(3rem, 4.954rem + -4.071vw, 4rem);
+    padding: 0 clamp(1.5rem, 0.546rem + 4.071vw, 2.5rem);
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(9.438rem, 1fr));
+    grid-template-rows: repeat(2, minmax(8.938rem, 1fr));
+    column-gap: 1.563rem;
+    row-gap: 1.5rem;
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.5rem;
+    }
+    @include mediaQuery(42.813rem) {
+        padding: 0 clamp(1.5rem, -6.753rem + 19.277vw, 2.5rem);
+        grid-template-columns: repeat(4, minmax(9.438rem, 1fr));
+        grid-template-rows: repeat(1, minmax(8.938rem, 1fr));
+        column-gap: 0.688rem;
+    }
+    @include mediaQuery(laptop) {
+        padding: 0 clamp(2.5rem, -6.429rem + 18.602vw, 10.313rem);
+        column-gap: clamp(0.6875rem, -0.67rem + 2.827vw, 1.875rem);
+        margin-bottom: clamp(3rem, 0.714rem + 4.762vw, 5rem);
+    }
+}
+
+.overline {
+    font-weight: weight("black");
+    font-size: 1rem;
+    color: $primary-sea-green;
+    line-height: 1.625rem;
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+}
+
+.heading2 {
+    margin-block: clamp(1rem, 1.977rem + -2.036vw, 1.5rem) 2rem;
+    font-weight: weight("black");
+    font-size: clamp(2rem, 1.523rem + 2.036vw, 2.5rem);
+    line-height: clamp(2.25rem, 1.773rem + 2.036vw, 2.75rem);
+    color: $blackish;
+    padding: 0 clamp(0rem, -3.817rem + 16.285vw, 4rem);
+}
+
+.description2 {
+    font-weight: weight(medium);
+    font-size: clamp(1rem, 0.857rem + 0.298vw, 1.125rem);
+    line-height: 1.625rem;
+    color: $primary-dark-grey;
+}

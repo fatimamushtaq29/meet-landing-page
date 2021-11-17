@@ -1,0 +1,83 @@
+@use '../abstracts' as *;
+
+footer {
+    padding-block: 5.75rem clamp(4.125rem, 4.858rem + -1.527vw, 4.5rem);
+    position: relative;
+    background-image: url("images/tablet/image-footer.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    button {
+        position: relative;
+        z-index: 1;
+        padding: 1rem 2.5rem;
+        background-color: $primary-purple;
+        transition: background-color 250ms;
+        & span {
+            color: $secondary-light-purple;
+        }
+        &:active {
+            background-color: $hover-purple;
+        }
+    }
+    .index {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-50%) translate(0, -5.75rem);
+        z-index: 1;
+        @include mediaQuery(1200px) {
+            transform: translate(-50%,-50%) translate(0, -7.25rem);
+        }
+    }
+    .footer-hero {
+        .heading3 {
+            font-weight: weight("black");
+            font-size: clamp(2rem, 1.523rem + 2.036vw, 2.5rem);
+            line-height: clamp(2.25rem, 1.773rem + 2.036vw, 2.75rem);
+            color: $white;
+            z-index: 1;
+            position: relative;
+            @include mediaQuery(75rem) {
+                text-align: left;
+            }            
+        }
+        .description3 {
+            margin-block: clamp(1.5rem, 1.023rem + 2.036vw, 2rem) clamp(2rem, 1.523rem + 2.036vw, 2.5rem);
+            font-weight: weight(medium);
+            font-size: 1.125rem;
+            line-height: 1.625rem;
+            color: $white;
+            position: relative;
+            z-index: 1;
+            padding: 0 clamp(1.5rem, -2.913rem + 18.83vw, 6.125rem);
+            @include mediaQuery(75rem) {
+                padding: 0;
+                width: 21.875rem;
+                text-align: left; 
+            }
+        }
+        @include mediaQuery(75rem) {
+            @include flexCenter(row);
+            justify-content: space-between;
+        }
+        @include mediaQuery(93.75rem) {
+            justify-content: space-around;
+        }
+    }
+    @include mediaQuery(75rem) {
+        padding: 7.25rem clamp(5rem, -8.078rem + 20.435vw, 10.313rem) 6.5rem;
+        background-image: url("images/desktop/image-footer.jpg");
+    }
+}
+footer::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: $primary-sea-green;
+    opacity: 0.9;
+    z-index: 0;
+}
+

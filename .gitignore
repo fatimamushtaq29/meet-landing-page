@@ -1,0 +1,12 @@
+/meet-landing-page-figma
+/node_modules
+
+style.css.map
+
+*.sketch
+*.fig
+
+*.xd
+
+.DS_Store
+.prettierignore

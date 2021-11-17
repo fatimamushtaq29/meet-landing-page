@@ -1,0 +1,45 @@
+@use '../abstracts' as *;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    background-color: $whitish;
+    
+}
+
+button {
+    font-size: 1rem;
+    font-weight: weight("black");
+    line-height: 1.625rem;
+    border-radius: 1.813rem;
+    text-decoration: none;
+    color: $white;
+    border: none;
+}
+
+.index {
+    position: relative;
+    .circle {
+        @include flexCenter(row);
+        width: 3.5rem;
+        height: 3.5rem;
+        margin: 0 auto;
+        border-radius: 50%;
+        border: 0.0625rem solid lighten($primary-dark-grey, 25%);
+        font-weight: weight("black");
+        color: $primary-dark-grey;
+        background: $whitish;
+    }
+    .vertical-line {
+        position: absolute;
+        height: 5.25rem;
+        border-left: 0.0625rem solid lighten($primary-dark-grey, 25%);
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
