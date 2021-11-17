@@ -205,7 +205,7 @@ header .hero-description {
 }
 @media (min-width: 90rem) {
   header .hero-description {
-    width: 33.75rem;
+    max-width: 38.75rem;
   }
 }
 header .buttons {
