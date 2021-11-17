@@ -34,8 +34,8 @@ Desktop Screenshot: ![](./screenshot-desktop.JPG)
 
 ### Links
 
-- Solution URL: [https://github.com/fatimamushtaq29/meet-landing-page](https://github.com/fatimamushtaq29/meet-landing-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-meet-landing-page-using-css-grid-and-flexbox-dPHolJJZx](https://www.frontendmentor.io/solutions/responsive-meet-landing-page-using-css-grid-and-flexbox-dPHolJJZx)
+- Live Site URL: [https://fatimamushtaq29.github.io/meet-landing-page/](https://fatimamushtaq29.github.io/meet-landing-page/)
 
 ## My process
 
