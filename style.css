@@ -104,6 +104,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow-x: hidden;
 }
 header .logo {
   margin-block: 3rem clamp(3.375rem, 2.779rem + 2.545vw, 4rem);
