@@ -80,7 +80,6 @@ header {
         line-height: 1.625rem;
         font-weight: weight(medium);
         color: $primary-dark-grey;
-        // max-width: 29.875rem;
         @include mediaQuery(four-k) {
             max-width: 38.75rem;
         }
