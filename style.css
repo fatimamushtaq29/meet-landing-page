@@ -130,7 +130,7 @@ header .header-image {
 header .hero {
   position: relative;
   margin-block: clamp(3rem, 1.569rem + 6.107vw, 4.5rem) clamp(9.25rem, 8.296rem + 4.071vw, 10.25rem);
-  padding: 0 clamp(1.5rem, -6.3721rem + 33.5878vw, 9.75rem);
+  padding: 0 clamp(1.5rem, -6.372rem + 33.588vw, 9.75rem);
 }
 @media (min-width: 48rem) {
   header .hero {
@@ -185,6 +185,11 @@ header .hero::after {
     background-position: right bottom;
   }
 }
+@media (min-width: 100rem) {
+  header .hero::after {
+    bottom: -15%;
+  }
+}
 header .hero-heading {
   font-size: clamp(2.5rem, 1.972rem + 2.254vw, 4rem);
   line-height: clamp(2.75rem, 2.31rem + 1.878vw, 4rem);
@@ -197,6 +202,11 @@ header .hero-description {
   line-height: 1.625rem;
   font-weight: 500;
   color: #87879D;
+}
+@media (min-width: 90rem) {
+  header .hero-description {
+    width: 33.75rem;
+  }
 }
 header .buttons {
   display: flex;
@@ -232,8 +242,13 @@ header .btn-detail:active {
 
 main {
   margin-bottom: clamp(11rem, 10.046rem + 4.071vw, 12rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 main .main-hero {
+  max-width: 90rem;
   padding: 0 clamp(1.5rem, -2.913rem + 18.83vw, 6.125rem);
 }
 @media (min-width: 48rem) {
@@ -251,6 +266,7 @@ main .main-hero {
   margin-block: 4rem clamp(3rem, 4.954rem - 4.071vw, 4rem);
   padding: 0 clamp(1.5rem, 0.546rem + 4.071vw, 2.5rem);
   width: 100%;
+  max-width: 90rem;
   display: grid;
   grid-template-columns: repeat(2, minmax(9.438rem, 1fr));
   grid-template-rows: repeat(2, minmax(8.938rem, 1fr));

@@ -21,7 +21,7 @@ header {
     .hero {
         position: relative;
         margin-block: clamp(3rem, 1.569rem + 6.107vw, 4.5rem) clamp(9.25rem, 8.296rem + 4.071vw, 10.25rem);
-        padding: 0 clamp(1.5rem, -6.3721rem + 33.5878vw, 9.75rem);
+        padding: 0 clamp(1.5rem, -6.372rem + 33.588vw, 9.75rem);
         @include mediaQuery(laptop) {
             padding: 0 clamp(9.75rem, -11.25rem + 43.75vw, 28.125rem);
         }
@@ -64,6 +64,9 @@ header {
         @include mediaQuery(four-k) {
             background-position: right bottom;
         }
+        @include mediaQuery(100rem) {
+            bottom: -15%;
+        }
     }
     .hero-heading {
         font-size: clamp(2.5rem, 1.972rem + 2.254vw, 4rem);
@@ -77,6 +80,9 @@ header {
         line-height: 1.625rem;
         font-weight: weight(medium);
         color: $primary-dark-grey;
+        @include mediaQuery(four-k) {
+            width: 33.75rem;
+        }
     }
     & .buttons {
         @include flexCenter(column);

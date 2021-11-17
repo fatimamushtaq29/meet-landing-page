@@ -2,7 +2,9 @@
 
 main {
     margin-bottom: clamp(11rem, 10.046rem + 4.071vw, 12rem);
+    @include flexCenter(column);
     .main-hero {
+        max-width: 90rem;
         padding: 0 clamp(1.5rem, -2.913rem + 18.83vw, 6.125rem);
         @include mediaQuery(laptop) {
             padding: 0 clamp(6.125rem, -19.018rem + 52.381vw, 28.125rem);
@@ -17,6 +19,7 @@ main {
     margin-block: 4rem clamp(3rem, 4.954rem + -4.071vw, 4rem);
     padding: 0 clamp(1.5rem, 0.546rem + 4.071vw, 2.5rem);
     width: 100%;
+    max-width: 90rem;
     display: grid;
     grid-template-columns: repeat(2, minmax(9.438rem, 1fr));
     grid-template-rows: repeat(2, minmax(8.938rem, 1fr));
