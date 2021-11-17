@@ -9,7 +9,7 @@ header {
         }
     }
     .header-image {
-        width: 106.77%;
+        width: 106.77%;        
         @include mediaQuery(laptop) {
             width: auto;
         }
