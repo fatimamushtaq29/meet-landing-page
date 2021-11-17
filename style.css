@@ -107,6 +107,11 @@ header {
 header .logo {
   margin-block: 3rem clamp(3.375rem, 2.779rem + 2.545vw, 4rem);
 }
+@media (min-width: 48rem) {
+  header .logo {
+    margin-top: clamp(3rem, 0.714rem + 4.762vw, 5rem);
+  }
+}
 header .header-image {
   width: 106.77%;
 }
