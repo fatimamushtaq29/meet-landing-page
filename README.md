@@ -28,11 +28,9 @@ Users should be able to:
 Mobile Screenshot: 
 ![](./screenshot-mobile.jpg)
 
-Tablet Screenshot: 
-![](./screenshot-tablet.jpg)
+Tablet Screenshot: ![](./screenshot-tablet.jpg)
 
-Desktop Screenshot: 
-![](./screenshot-desktop.jpg)
+Desktop Screenshot: ![](./screenshot-desktop.jpg)
 
 ### Links
 
