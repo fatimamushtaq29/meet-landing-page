@@ -42,7 +42,6 @@ Desktop Screenshot: ![](./screenshot-desktop.JPG)
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
@@ -59,6 +58,6 @@ I used CSS Grid to position images and make them responsive.
 
 ## Author
 
-- Website - [Fatima Mushtaq](https://github.com/fatimamushtaq29)
+- Github - [Fatima Mushtaq](https://github.com/fatimamushtaq29)
 - Frontend Mentor - [fatimamushtaq29](https://www.frontendmentor.io/profile/fatimamushtaq29)
 - LinkedIn - [Fatima Mushtaq](https://www.linkedin.com/in/fatima-mushtaq-2aa733107/)
